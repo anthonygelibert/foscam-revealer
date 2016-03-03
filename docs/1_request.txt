@@ -1,0 +1,20 @@
+No.     Time           Source                Destination           Protocol Length Info
+    145 113.186449000  169.254.128.48        255.255.255.255       UDP      69     Source port: ndmp  Destination port: ndmp
+
+Frame 145: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_2a:1a:05 (c8:2a:14:2a:1a:05), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 169.254.128.48 (169.254.128.48), Dst: 255.255.255.255 (255.255.255.255)
+User Datagram Protocol, Src Port: ndmp (10000), Dst Port: ndmp (10000)
+    Source port: ndmp (10000)
+    Destination port: ndmp (10000)
+    Length: 35
+    Checksum: 0x2a63 [validation disabled]
+Data (27 bytes)
+    Data: 4d4f5f490000000000000000000000040000000400000000...
+    [Length: 27]
+
+0000  ff ff ff ff ff ff c8 2a 14 2a 1a 05 08 00 45 00   .......*.*....E.
+0010  00 37 d0 e3 00 00 ff 11 00 00 a9 fe 80 30 ff ff   .7...........0..
+0020  ff ff 27 10 27 10 00 23 2a 63 4d 4f 5f 49 00 00   ..'.'..#*cMO_I..
+0030  00 00 00 00 00 00 00 00 00 04 00 00 00 04 00 00   ................
+0040  00 00 00 00 01                                    .....

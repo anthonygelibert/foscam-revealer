@@ -1,0 +1,24 @@
+No.     Time           Source                Destination           Protocol Length Info
+    146 113.192226000  0.0.0.0               255.255.255.255       UDP      130    Source port: ndmp  Destination port: ndmp
+
+Frame 146: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface 0
+Ethernet II, Src: Shenzhen_10:13:3a (e8:ab:fa:10:13:3a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 0.0.0.0 (0.0.0.0), Dst: 255.255.255.255 (255.255.255.255)
+User Datagram Protocol, Src Port: ndmp (10000), Dst Port: ndmp (10000)
+    Source port: ndmp (10000)
+    Destination port: ndmp (10000)
+    Length: 96
+    Checksum: 0xb464 [validation disabled]
+Data (88 bytes)
+    Data: 4d4f5f490100000000000000000000410000004100000045...
+    [Length: 88]
+
+0000  ff ff ff ff ff ff e8 ab fa 10 13 3a 08 00 45 00   ...........:..E.
+0010  00 74 00 00 40 00 40 11 3a 7a 00 00 00 00 ff ff   .t..@.@.:z......
+0020  ff ff 27 10 27 10 00 60 b4 64 4d 4f 5f 49 01 00   ..'.'..`.dMO_I..
+0030  00 00 00 00 00 00 00 00 00 41 00 00 00 41 00 00   .........A...A..
+0040  00 45 38 41 42 46 41 31 30 31 33 33 41 00 00 00   .E8ABFA10133A...
+0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070  00 00 00 00 00 00 00 11 25 02 29 14 08 04 48 00   ........%.)...H.
+0080  50 01                                             P.
